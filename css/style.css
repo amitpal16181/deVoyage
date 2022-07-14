@@ -1,0 +1,94 @@
+/* Fonts in use
+
+font-family: 'Allura', cursive;
+font-family: 'Merienda', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+
+*/
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+::-webkit-scrollbar {
+        display: none;
+}
+
+body {
+        font-family: 'Merriweather Sans', sans-serif;
+}
+
+.landing {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/travellingMainBackground.jpeg");
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        background-size: 100vw 100vh;
+        color: white;
+}
+
+.nav {
+        padding: 3rem 16rem;
+}
+
+.navOptions {
+        display: inline-block;
+}
+
+.navOptions>a {
+        position: relative;
+        color: white;
+        left: 50rem;
+        bottom: 1rem;
+        margin: 3rem;
+        text-decoration: none;
+        font-size: 1.3rem;
+        transition: all 0.25s ease-out;
+}
+
+.navOptions>a:hover{
+        color: aliceblue;
+        text-decoration: underline;
+}
+
+.logo {
+        width: 14rem;
+        height: 3.5rem;
+}
+
+.bigText{
+        margin-top: 2rem;
+        margin-left: 15rem;
+        line-height: 2;
+}
+
+.bigText>h2{
+        padding: 1.5rem;
+        font-size: 2.25rem;
+        font-weight: 700;
+}
+
+.bigText>h4{
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+}
+
+.exploreBtn{
+        background-color: aliceblue;
+        margin-left: 17rem;
+        margin-top: 3rem;
+        padding: 1.25rem 2rem;
+        font-size: 2rem;
+        border: none;
+        border-radius: 50px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.25s ease-in-out;
+}
+
+.exploreBtn:hover{
+        font-size: 2.125rem;
+        background-color: #F7F7F7;
+}
