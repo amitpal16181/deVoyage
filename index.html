@@ -8,13 +8,14 @@
         <link rel="shortcut icon" href="./images/logoFavicon_white.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Merienda&family=Merriweather+Sans:wght@300&display=swap"
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Chakra+Petch:wght@300&family=Kanit:wght@100&family=Merienda&family=Merriweather+Sans:wght@300&family=Open+Sans:wght@300&display=swap"
                 rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         <title>deVoyage</title>
 </head>
 
 <body>
+        <!-- landing page design -->
         <div class="landing">
                 <nav class="nav">
                         <img class="logo" src="./images/deVoyage logo-white.png" alt="deVoyage logo">
@@ -45,16 +46,18 @@
         </div>
 
         <div class="topDestinations">
-                <h2>Top destinations to visit</h2>
+                <h1>Top destinations to visit</h1>
                 <div class="cities">
-                        <img src="./images/topContriesLogo.png" alt="top countries">
-                        <img src="./images/topCitiesLogo.png" alt="top cities">
+                        <img class="topCountries" src="./images/topContriesLogo.png" alt="top countries">
+                        <img class="topCities" src="./images/topCitiesLogo.png" alt="top cities">
                 </div>
         </div>
 
         <hr>
 
+        <!-- Destination finder (Also to copy code to destinationFinder.html) -->
         <div class="destinationFinder">
+                <h1>Find destinations</h1>
                 <form action="#" method="get">
                         <select name="destination" id="destinationArea">
                                 <option value="selectDestination">--Select destination--</option>
@@ -78,7 +81,7 @@
                         </select>
 
                         <select name="season" id="season">
-                                <option value="selectSeason">--Location Season--</option>
+                                <option value="selectSeason">--Destination Season--</option>
                                 <option value="summer">Summer</option>
                                 <option value="spring">Spring</option>
                                 <option value="autumn">Autumn</option>
@@ -86,39 +89,49 @@
                                 <option value="rain">Rainy</option>
                         </select>
 
-                        <input type="text" value="" placeholder="Enter budget">
+                        <input type="text" value="" placeholder="Budget (in ₹)">
 
                         <input type="text" value="" placeholder="No of days">
 
-                        <input type="button" value="Search">
+                        <input class="searchDestination" type="button" value="Search">
                 </form>
 
                 <div class="foundDestinations">
                         <div class="card destCard1">
                                 <h3>Name</h3>
-                                <h4>description</h4>
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est quod itaque nam
+                                        iusto dignissimos totam quam quas! Vel eum consequatur placeat nihil velit
+                                        expedita?...</h4>
                                 <a href="#">Read More</a>
                         </div>
                         <div class="card destCard2">
                                 <h3>Name</h3>
-                                <h4>description</h4>
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est quod itaque nam
+                                        iusto dignissimos totam quam quas! Vel eum consequatur placeat nihil velit
+                                        expedita?...</h4>
                                 <a href="#">Read More</a>
                         </div>
                         <div class="card destCard3">
                                 <h3>Name</h3>
-                                <h4>description</h4>
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est quod itaque nam
+                                        iusto dignissimos totam quam quas! Vel eum consequatur placeat nihil velit
+                                        expedita?...</h4>
                                 <a href="#">Read More</a>
                         </div>
                         <div class="card destCard4">
                                 <h3>Name</h3>
-                                <h4>description</h4>
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est quod itaque nam
+                                        iusto dignissimos totam quam quas! Vel eum consequatur placeat nihil velit
+                                        expedita?...</h4>
                                 <a href="#">Read More</a>
                         </div>
-                        <div class="card destCar5">
+                        <!-- <div class="card destCar5">
                                 <h3>Name</h3>
-                                <h4>description</h4>
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est quod itaque nam
+                                        iusto dignissimos totam quam quas! Vel eum consequatur placeat nihil velit
+                                        expedita?</h4>
                                 <a href="#">Read More</a>
-                        </div>
+                        </div> -->
                 </div>
                 <div class="moreBtn">
                         <h1>></h1>
@@ -127,15 +140,19 @@
 
         <hr>
 
+        <!-- Packages -->
         <div class="packages">
-                <h2>Explore Our Packages</h2>
+                <h1>Explore Our Packages</h1>
                 <h4>
                         With us, you will get your trip at the minimum cost.
                         <br>
                         But, here are some offer packages to help you save more.
                 </h4>
 
-                <div class="packageCard packageCard1">
+                <input class="explorePackages" id="explorePkgBtn" type="button" value="Explore">
+
+                <!-- Code to be moved to packadges.html -->
+                <!-- <div class="packageCard packageCard1">
                         <h3>20% off on your first
                                 <br>
                                 business trip
@@ -148,29 +165,32 @@
                                 married life
                         </h3>
                         <a href="#">know more</a>
-                </div>
+                </div> -->
         </div>
 
         <hr>
 
+        <!-- to be linked with register.html -->
         <div class="register">
-                <h2>Ready to go on a trip with us?</h2>
+                <h1>Ready to go on a trip with us?</h1>
                 <input type="button" value="Register">
         </div>
 
         <hr>
 
+        <!-- to be linked with contact.html -->
         <div class="contact">
-                <h2>Need a support or wants to say something?</h2>
+                <h1>Need a support or wants to say something?</h1>
                 <input type="button" value="Contact Us">
         </div>
 
         <hr>
 
+        <!-- Footer -->
         <div class="footer">
-                <img src="./images/instagram.png" alt="Instagram">
-                <img src="./images/twitter.png" alt="twitter">
-                <img src="./images/mail.png" alt="Email">
+                <a href="#"><img src="./images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="./images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="./images/mail.png" alt="Email"></a>
                 <h4>&#169; Copyright, deVoyage Inc.</h4>
         </div>
 </body>
